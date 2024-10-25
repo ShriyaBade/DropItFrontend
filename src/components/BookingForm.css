@@ -1,0 +1,15 @@
+/* src/components/BookingForm.css */
+.booking-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.booking-input:focus {
+    border-color: #3f51b5;
+    outline: none;
+}
